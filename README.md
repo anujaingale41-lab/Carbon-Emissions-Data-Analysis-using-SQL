@@ -22,7 +22,7 @@ The project demonstrates how SQL can move beyond basic reporting and become a to
 ## 🛠️ Tools & Technologies
 - *SQL* (PostgreSQL / MySQL / SQLite – adaptable)  
 - *Data Visualization* (Power BI / Tableau) for dashboards  
-- *Excel / Python* (optional, for preprocessing raw data)  
+- *Excel /* (optional, for preprocessing raw data)  
 
 ## 🗂️ Database Schema (Sample)
 
