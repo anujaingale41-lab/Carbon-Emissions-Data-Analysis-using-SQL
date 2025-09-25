@@ -67,6 +67,8 @@ WITH YearlyChange AS (
          LAG(total_emissions_Mtco2e) OVER (PARTITION BY parent_entity ORDER BY year) AS prev_year_emissions
   FROM emissions_low_granularity
 )
+
+12.Identify the top 10 entities that achieved the highest reduction in carbon emissions compared to the previous year. 
 SELECT parent_entity, 
        ROUND(prev_year_emissions - total_emissions_Mtco2e, 2) AS reduction
 FROM YearlyChange
